@@ -21,13 +21,13 @@ START_TEXT = """Hello {}
 I am a google search bot.
 
 > `I can search from google. Use me in inline.`
-
-Made by @FayasNoushad"""
+Bot Creator 👉 @FayasNoushad
+This Bot Owner 👉 @HydraLivegrambot"""
 
 JOIN_BUTTON = [
     InlineKeyboardButton(
-        text='⚙ Join Updates Channel ⚙',
-        url='https://telegram.me/FayasNoushad'
+        text='⚙ Join Channel ⚙',
+        url='https://telegram.me/Tg_Galaxy'
     )
 ]
 
