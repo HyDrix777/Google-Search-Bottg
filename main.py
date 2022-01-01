@@ -20,13 +20,13 @@ Bot = Client(
 START_TEXT = """Hello {}
 I am a google search bot.
 
-> `I can search from google. Use me in inline.`
-Bot Creator 👉 @FayasNoushad
-This Bot Owner 👉 @HydraLivegrambot"""
+`I can search from google. Use me in inline.`
+
+Type /help"""
 
 JOIN_BUTTON = [
     InlineKeyboardButton(
-        text='⚙ Join Channel ⚙',
+        text='📣 Channel',
         url='https://telegram.me/Tg_Galaxy'
     )
 ]
@@ -88,7 +88,7 @@ def google(query):
     for info in informations:
         text = f"**Title:** `{info['title']}`"
         text += f"\n**Description:** `{info['description']}`"
-        text += f"\n\nMade by @FayasNoushad"
+        text += f"\n\nChannel @Tg_Galaxy"
         results.append(
             {
                 "title": info['title'],
